@@ -1,0 +1,155 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F2221 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"25 U:\ACS130\Projects\Shadowbots.X\encoder.c
+[v _main main `(v  1 e 1 0 ]
+"63
+[v _wait10ms wait10ms `(v  1 e 1 0 ]
+[s S36 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"509 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f2221.h
+[s S45 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S54 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S63 . 1 `uc 1 T1CKI 1 0 :1:0 
+]
+[s S65 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S69 . 1 `S36 1 . 1 0 `S45 1 . 1 0 `S54 1 . 1 0 `S63 1 . 1 0 `S65 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES69  1 e 1 @3970 ]
+[s S149 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"746
+[s S158 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S167 . 1 `S149 1 . 1 0 `S158 1 . 1 0 ]
+[v _LATAbits LATAbits `VES167  1 e 1 @3977 ]
+"831
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+[s S109 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"858
+[s S118 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S127 . 1 `S109 1 . 1 0 `S118 1 . 1 0 ]
+[v _LATBbits LATBbits `VES127  1 e 1 @3978 ]
+"1055
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1277
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1499
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"3381
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @4026 ]
+"3467
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4027 ]
+"3481
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4029 ]
+"3644
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4030 ]
+"3658
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"3729
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"4354
+[v _T2CON T2CON `VEuc  1 e 1 @4042 ]
+"4452
+[v _PR2 PR2 `VEuc  1 e 1 @4043 ]
+"25 U:\ACS130\Projects\Shadowbots.X\encoder.c
+[v _main main `(v  1 e 1 0 ]
+{
+"42
+[v main@sumL sumL `i  1 a 2 10 ]
+"40
+[v main@encoderLeft encoderLeft `i  1 a 2 8 ]
+"43
+[v main@i i `i  1 a 2 6 ]
+"62
+} 0
+"63
+[v _wait10ms wait10ms `(v  1 e 1 0 ]
+{
+"64
+[v wait10ms@c c `i  1 a 2 3 ]
+"63
+[v wait10ms@del del `i  1 p 2 0 ]
+"68
+} 0
